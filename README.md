@@ -650,7 +650,7 @@ sudo apt-get install helm
 
 
 ```bash
-aws eks update-kubeconfig --name zomatocluster --region eu-north-1
+aws eks update-kubeconfig --name Gym-cluster --region eu-north-1
 
 kubectl create namespace argocd
 
