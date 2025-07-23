@@ -163,13 +163,13 @@ On jenkins--> manage jenkins--> system
 - E-mail Notification --> On SMTP server = smtp.gmail.com --> advanced --> enable use ssl --> smtp port 465--> enable use SMTP authentication --> username= your-email-id --> on password = app password `eg:(drsn anne afrd pcfx)`--> enable test configuration by sending email --> enter our email--> test configuration --> Goto your email you will get an test email from jenkins --> apply and save
 
 
-**step 19: Create webhook in sonarqube**
+**step 9: Create webhook in sonarqube**
 
 - on jenkins--> manage jenkins--> system--> add sonarqube server -->give name as sonar-server--> on server url= paste the url of sonarqube with sonarqube-webhook eg:**(192.168.20.173:8080/sonarqube-webhook)** -->select the authentication --> apply and save .
 
 
 
-**Step 110: Configure Project on Sonarqube**
+**Step 10: Configure Project on Sonarqube**
 
 On Sonarqube--> Create project -->give projet name and key name --> and create
 --> select locally --> generate a token --> continue --> other --> Linux --> copy the command and paste it on the sonarqube analysis portion on jenkins pipeline
