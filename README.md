@@ -701,5 +701,5 @@ To access it
 <p align="center">Application deployed on kubernetes</p>
 </div>
 
-### Major things that you wnat to edit in this project .Goto `train_food_delivery/settings.py` on `ALLOWED_HOSTS` provide your `public-ip` of node instance and save it 
+### Major things that you wnat to edit in this project .Goto `fitness/settings.py` on `ALLOWED_HOSTS` provide your `public-ip` of node instance and save it 
 ### Rebuild the Docker 
